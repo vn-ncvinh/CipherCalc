@@ -1,0 +1,10 @@
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.csproj.AssemblyReference.cache
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipher.Calc.resources
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.Properties.Resources.resources
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.csproj.GenerateResource.cache
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.csproj.CoreCompileInputs.cache
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\SimpleCipherCalc.exe.config
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\SimpleCipherCalc.exe
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\SimpleCipherCalc.pdb
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.exe
+C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.pdb
