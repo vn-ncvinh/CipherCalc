@@ -181,9 +181,10 @@
             // 
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(489, 516);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(436, 518);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 13);
+            this.label9.Size = new System.Drawing.Size(144, 20);
             this.label9.TabIndex = 16;
             this.label9.Text = "Decryption Mode";
             // 
@@ -285,10 +286,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(592, 547);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.modeButton);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -302,8 +303,11 @@
             this.Controls.Add(this.encryptedTextBox);
             this.Controls.Add(this.plainTextBox);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(608, 586);
+            this.MinimumSize = new System.Drawing.Size(608, 586);
             this.Name = "Calc";
             this.Text = "Simple Substitution Cipher Calculator";
             this.Load += new System.EventHandler(this.Calc_Load);
