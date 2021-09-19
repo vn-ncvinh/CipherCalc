@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SimpleCipher
+namespace SubstitutionCipher
 {
     static class Program
     {

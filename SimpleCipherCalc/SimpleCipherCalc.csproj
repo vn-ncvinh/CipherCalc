@@ -7,8 +7,8 @@
     <ProjectGuid>{C4B16CA8-DEDF-428A-BED7-8BE9662CC49B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleCipherCalc</RootNamespace>
-    <AssemblyName>SimpleCipherCalc</AssemblyName>
+    <RootNamespace>SubstitutionCipher</RootNamespace>
+    <AssemblyName>Substitution Cipher</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SimpleCipher
+namespace SubstitutionCipher
 {
     public partial class Calc : Form
     {
@@ -72,7 +72,6 @@ namespace SimpleCipher
         {
             if (plainTextBox.Text.Length == encryptedTextBox.Text.Length)
             {
-                toolStripStatusLabel1.Text = "Calculation ready!";
                 cipherRichTextBox.Enabled = true;
                 modeButton.Enabled = true;
                 plainText = plainTextBox.Text.ToString().ToCharArray();
@@ -80,7 +79,6 @@ namespace SimpleCipher
             }
             else
             {
-                toolStripStatusLabel1.Text = "Calculation not ready. Characters lengths don't match.";
                 cipherRichTextBox.Enabled = false;
                 modeButton.Enabled = false;
             }
@@ -112,7 +110,7 @@ namespace SimpleCipher
                         }
                         catch
                         {
-                            MessageBox.Show("An unavoidable exception occurred.", "SimpleCipherCalc", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show("An unavoidable exception occurred.", "Substitution Cipher", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             Application.Exit();
                         }
                     }
@@ -126,7 +124,7 @@ namespace SimpleCipher
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Version: 1.1.3.0\nMIT License\nCopyright (C) Tsubasa FUJII", "SimpleCipherCalc", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Version: 1.1.3.0\nMIT License\nCopyright (C) Tsubasa FUJII", "Substitution Cipher", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -165,6 +163,53 @@ namespace SimpleCipher
             return new string(array);
         }
 
+        private void Calc_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            cipherRichTextBox.Text=Clipboard.GetText();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(decryptedRichTextBox.Text);
+        }
+
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openKeyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                System.IO.StreamReader file = new System.IO.StreamReader(openFileDialog1.FileName);
+                plainTextBox.Text = file.ReadLine();
+                encryptedTextBox.Text = file.ReadLine();
+                file.Close();
+            }
+        }
+
+        private void Savekey_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                System.IO.StreamWriter file = new System.IO.StreamWriter(saveFileDialog1.FileName);
+                file.WriteLine(plainTextBox.Text);
+                file.WriteLine(encryptedTextBox.Text);
+                file.Close();
+                MessageBox.Show("OK!", "Substitution Cipher", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            
+        }
+
+        private void infoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dev by NCV", "Substitution Cipher", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

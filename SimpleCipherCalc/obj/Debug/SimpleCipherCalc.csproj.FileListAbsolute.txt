@@ -8,3 +8,11 @@ C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\SimpleCi
 C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\SimpleCipherCalc.pdb
 C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.exe
 C:\Users\vnncv\Source\Repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.pdb
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SimpleCipherCalc.csproj.GenerateResource.Cache
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SubstitutionCipher.Calc.resources
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\Substitution Cipher.exe.config
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\Substitution Cipher.exe
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\bin\Debug\Substitution Cipher.pdb
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\SubstitutionCipher.Properties.Resources.resources
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\Substitution Cipher.exe
+C:\Users\vnncv\OneDrive - NCV\Documents\Visual Studio 2013\Projects\repos\SimpleCipherCalc\SimpleCipherCalc\obj\Debug\Substitution Cipher.pdb
