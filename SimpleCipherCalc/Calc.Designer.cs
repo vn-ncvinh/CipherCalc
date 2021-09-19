@@ -49,7 +49,6 @@
             this.Savekey = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.infoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -244,21 +243,21 @@
             // openkey
             // 
             this.openkey.Name = "openkey";
-            this.openkey.Size = new System.Drawing.Size(125, 22);
+            this.openkey.Size = new System.Drawing.Size(152, 22);
             this.openkey.Text = "Open Key";
             this.openkey.Click += new System.EventHandler(this.openKeyToolStripMenuItem_Click);
             // 
             // Savekey
             // 
             this.Savekey.Name = "Savekey";
-            this.Savekey.Size = new System.Drawing.Size(125, 22);
+            this.Savekey.Size = new System.Drawing.Size(152, 22);
             this.Savekey.Text = "Save Key";
             this.Savekey.Click += new System.EventHandler(this.Savekey_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -266,20 +265,12 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem,
-            this.infoToolStripMenuItem});
+            this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(592, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // infoToolStripMenuItem
-            // 
-            this.infoToolStripMenuItem.Name = "infoToolStripMenuItem";
-            this.infoToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
-            this.infoToolStripMenuItem.Text = "Info";
-            this.infoToolStripMenuItem.Click += new System.EventHandler(this.infoToolStripMenuItem_Click);
             // 
             // Calc
             // 
@@ -343,7 +334,6 @@
         private System.Windows.Forms.ToolStripMenuItem Savekey;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
     }
 }
 

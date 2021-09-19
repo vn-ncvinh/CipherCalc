@@ -122,6 +122,8 @@ namespace SubstitutionCipher
             }
         }
 
+     
+
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Version: 1.1.3.0\nMIT License\nCopyright (C) Tsubasa FUJII", "Substitution Cipher", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -207,9 +209,5 @@ namespace SubstitutionCipher
             
         }
 
-        private void infoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Dev by NCV", "Substitution Cipher", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
     }
 }
